@@ -1,0 +1,5 @@
+# Drupal 6 support for TextMate
+
+This is a Drupal 6 TextMate bundle. It provides support for the bulkier Drupal 6 APIs like hook_block and FAPI.
+
+To use this, simply add the Drupal6.tmbundle directory to TextMate.
