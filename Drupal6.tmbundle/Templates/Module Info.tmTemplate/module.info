@@ -1,0 +1,8 @@
+;$Id$
+
+name = Module name
+;package = ${TM_NEW_FILE_BASENAME}
+description = One sentence description.
+core = 6.x
+php = 5.2
+;dependencies[] = autoload

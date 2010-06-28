@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'checkbox',
+  '#title' =&gt; t('${2: Check a box}'),
+  '#description' =&gt; t('$3'),
+  '#default_value' =&gt; ${4:0},
+  '#return_value' =&gt; ${5:1},$0
+);</string>
+	<key>name</key>
+	<string>FAPI Checkbox</string>
+	<key>tabTrigger</key>
+	<string>fapi_checkbox</string>
+	<key>uuid</key>
+	<string>18BBD5F8-BC9C-40B6-A30F-34C257847FBC</string>
+</dict>
+</plist>

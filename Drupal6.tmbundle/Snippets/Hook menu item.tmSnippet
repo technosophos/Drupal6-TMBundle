@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$items['${1:some/path/to}'] = array(
+  'title' =&gt; t('${2:Title}'),
+  'description' =&gt; t('${3:Description}'),
+  'page callback' =&gt; '${4:drupal_get_form}',
+  'page arguments' =&gt; array('$5'),
+  'type' =&gt; MENU_NORMAL_ITEM, // MENU_CALLBACK, MENU_SUGGESTED_ITEM, MENU_LOCAL_TASK, MENU_DEFAULT_LOCAL_TASK
+  //'access callback' =&gt; 'user_access',
+  'access arguments' =&gt; array('access content'),
+  //'file' =&gt; 'module.admin.inc'
+  //'weight' =&gt; 0,
+  //'menu_name' =&gt; 'name of menu',
+);
+</string>
+	<key>name</key>
+	<string>Hook menu item</string>
+	<key>tabTrigger</key>
+	<string>menu_item</string>
+	<key>uuid</key>
+	<string>E8516C03-5E7E-4FBF-BB12-5562053F8058</string>
+</dict>
+</plist>

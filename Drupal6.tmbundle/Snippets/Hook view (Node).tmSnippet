@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Implementation of hook_view()
+ */
+function ${1:hook}_view(\$node, \$teaser = FALSE, \$page = FALSE) {
+  \$content =&amp; \$node-&gt;content;
+
+  $0
+
+  return \$node;
+}
+</string>
+	<key>name</key>
+	<string>Hook view (Node)</string>
+	<key>tabTrigger</key>
+	<string>view_hook</string>
+	<key>uuid</key>
+	<string>E27EFE5B-FC7D-4293-8AFA-99A67C90485A</string>
+</dict>
+</plist>

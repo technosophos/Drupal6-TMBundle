@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'fieldset',
+  '#title' =&gt; t('${2:Fields}'),
+  '#description' =&gt; t('$3'),
+  '#collapsible' =&gt; ${4:TRUE},
+  '#collapsed' =&gt; ${5:FALSE},$0
+);</string>
+	<key>name</key>
+	<string>FAPI Fieldset</string>
+	<key>tabTrigger</key>
+	<string>fapi_fieldset</string>
+	<key>uuid</key>
+	<string>F2722538-315C-4E48-A0FA-5E1E525F5507</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:hook}_help(\$path, \$arg) {
+  switch($path) {
+    case 'admin/${1/hook/\u$0/}#help':
+      return t('$0');
+  }
+}</string>
+	<key>name</key>
+	<string>Hook help</string>
+	<key>tabTrigger</key>
+	<string>help_hook</string>
+	<key>uuid</key>
+	<string>31F47FBF-86C6-421E-A529-1609EA451981</string>
+</dict>
+</plist>

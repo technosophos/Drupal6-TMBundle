@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'radio',
+  '#title' =&gt; t('${2:Yes}'),
+  '#description' =&gt; t('$3'),
+  '#default_value' =&gt; ${4:0},
+  '#return_value' =&gt; ${5:1},$0
+);
+</string>
+	<key>name</key>
+	<string>FAPI Radio</string>
+	<key>tabTrigger</key>
+	<string>fapi_radio</string>
+	<key>uuid</key>
+	<string>D1FF6159-D110-4F50-8311-E2725C43F19F</string>
+</dict>
+</plist>

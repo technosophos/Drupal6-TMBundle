@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:theme_name}' =&gt; array(
+  'function' =&gt; '${2:some_callback_function}',
+  'arguments' =&gt; array($3),
+  //'template' =&gt; 'template_file.tpl.php',
+  //'file' =&gt; 'module.theme.inc',
+  //'path' =&gt; 'some/path',$0
+),
+</string>
+	<key>name</key>
+	<string>Hook theme item</string>
+	<key>tabTrigger</key>
+	<string>theme_item</string>
+	<key>uuid</key>
+	<string>39FF490A-CF36-40EA-971D-33CA2FB9F363</string>
+</dict>
+</plist>

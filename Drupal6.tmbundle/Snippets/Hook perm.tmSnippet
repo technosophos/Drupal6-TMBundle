@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Implementation of hook_perm().
+ */
+function ${1:hook}_perm() {
+  return array(
+    $0
+  );
+}
+</string>
+	<key>name</key>
+	<string>Hook perm</string>
+	<key>tabTrigger</key>
+	<string>perm_hook</string>
+	<key>uuid</key>
+	<string>69FE7B38-1A53-4BA0-BD01-CE33FF086F5C</string>
+</dict>
+</plist>

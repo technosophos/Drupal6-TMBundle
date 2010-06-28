@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>drupal_set_message('${1:message}', '${2:status}');</string>
+	<key>name</key>
+	<string>Set message</string>
+	<key>tabTrigger</key>
+	<string>dsm</string>
+	<key>uuid</key>
+	<string>F822F752-AC4C-4A10-B5EF-9347A5DD8ED9</string>
+</dict>
+</plist>

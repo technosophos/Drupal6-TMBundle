@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'select',
+  '#title' =&gt; t('${2:Select}'),
+  '#description' =&gt; t('$3'),
+  '#options' =&gt; array(
+    '${4:machine_name}' =&gt; t('${5:Human name}'),
+    '${6:machine_name2}' =&gt; t('${7:Human name 2}'),
+  ),
+  '#default_value' =&gt; '${8:machine_name}',
+  '#required' =&gt; ${9:FALSE},$0
+);
+</string>
+	<key>name</key>
+	<string>FAPI Select</string>
+	<key>tabTrigger</key>
+	<string>fapi_select</string>
+	<key>uuid</key>
+	<string>DE2B2615-4979-4F23-891A-81E1F916DD0D</string>
+</dict>
+</plist>

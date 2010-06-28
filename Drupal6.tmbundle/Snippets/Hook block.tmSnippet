@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Implementation of hook_block().
+ */
+function ${1:hook}_block(\$op = 'list', \$delta = 0, \$edit = NULL) {
+  switch (\$op) {
+    case 'list':
+      // Declare names of deltas: \$block['delta'] = array()
+      \$blocks['${2:block_name}'] = array(
+        'info' =&gt; t('${3:Info}'),
+      );
+      return \$blocks;
+    case 'configure':
+      // Do configure form
+      return;
+    case 'save':
+      // Do saving for configuration form
+      return;
+    case 'view':
+      // Create content. Usually, this will use \$delta.
+      \$block['subject'] = t('${4:Subject}');
+      \$block['content'] = t('${5:Content}');
+      return \$block; 
+  }
+}</string>
+	<key>name</key>
+	<string>Hook block</string>
+	<key>tabTrigger</key>
+	<string>block_hook</string>
+	<key>uuid</key>
+	<string>6CCC4810-A78F-4C48-B792-9307FE6E90D7</string>
+</dict>
+</plist>

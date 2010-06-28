@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:hook}_init() {
+  $0
+}</string>
+	<key>name</key>
+	<string>Hook init</string>
+	<key>tabTrigger</key>
+	<string>init_hook</string>
+	<key>uuid</key>
+	<string>C8772D24-65F3-4914-B0FB-7E3D1632C8D7</string>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?php
+// $Id$
+
+/**
+ * The installer file for ${TM_NEW_FILE_BASENAME}.
+ * @file
+ */
+
+/**
+ * Implementation of hook_install().
+ */
+function ${TM_NEW_FILE_BASENAME}_install() {
+  //drupal_install_schema('${TM_NEW_FILE_BASENAME}');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function ${TM_NEW_FILE_BASENAME}_uninstall() {
+  // drupal_uninstall_schema('${TM_NEW_FILE_BASENAME}');
+}
+
+/**
+ * Implementation of hook_schema().
+ */
+function ${TM_NEW_FILE_BASENAME}_schema() {
+  $schema['${TM_NEW_FILE_BASENAME}'] = array(
+    'fields' => array(),
+    'primary key' => array(),
+  );
+
+  return $schema;
+}
+
+
+

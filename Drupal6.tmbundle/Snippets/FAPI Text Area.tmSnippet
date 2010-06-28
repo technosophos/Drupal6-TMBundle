@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'textarea',
+  '#title' =&gt; t('${2:Fields}'),
+  '#description' =&gt; t('$3'),
+  '#default_value' =&gt; t('$4'),
+  '#rows' =&gt; ${5:15},
+  '#cols' =&gt; ${6:60},
+  '#required' =&gt; ${7:FALSE},$0
+);
+</string>
+	<key>name</key>
+	<string>FAPI Text Area</string>
+	<key>tabTrigger</key>
+	<string>fapi_textarea</string>
+	<key>uuid</key>
+	<string>B12BC6D8-676C-4C73-93B0-B7EA8A73E8FB</string>
+</dict>
+</plist>

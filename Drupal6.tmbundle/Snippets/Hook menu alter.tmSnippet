@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:hook}_menu_alter(&amp;\$callbacks) {
+  $0
+}
+</string>
+	<key>name</key>
+	<string>Hook menu alter</string>
+	<key>tabTrigger</key>
+	<string>menu_alter_hook</string>
+	<key>uuid</key>
+	<string>D23830D3-8287-4E3D-BD2F-B04C81BE3F00</string>
+</dict>
+</plist>

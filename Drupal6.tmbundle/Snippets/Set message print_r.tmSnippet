@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>drupal_set_message('&lt;pre&gt;' . print_r(${1:\$var}, TRUE) . '&lt;/pre&gt;' . __FILE__ . ' ' . __LINE__);</string>
+	<key>name</key>
+	<string>Set message print_r</string>
+	<key>tabTrigger</key>
+	<string>dsmp</string>
+	<key>uuid</key>
+	<string>036AE73E-7698-4C34-878A-20E03BC29774</string>
+</dict>
+</plist>

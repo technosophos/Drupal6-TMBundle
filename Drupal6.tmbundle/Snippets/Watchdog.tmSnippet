@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>watchdog('${1:type}', '${2:message}', ${3:array()}, ${5:WATCHDOG_NOTICE}, ${4: l('Name','path')});</string>
+	<key>name</key>
+	<string>Watchdog</string>
+	<key>tabTrigger</key>
+	<string>watchdog</string>
+	<key>uuid</key>
+	<string>E2349E52-D627-4961-93FA-1836B031423B</string>
+</dict>
+</plist>

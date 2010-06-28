@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'submit',
+  '#value' =&gt; t('${2:Submit}'),$0
+);</string>
+	<key>name</key>
+	<string>FAPI Submit</string>
+	<key>tabTrigger</key>
+	<string>fapi_submit</string>
+	<key>uuid</key>
+	<string>40D3A23E-34B6-43E2-B87B-EC087B8658FD</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:field_name}'] = array(
+  '#type' =&gt; 'image_button',
+  '#button_type' =&gt; 'submit',
+  '#src' =&gt; url('${2:path/tp/image}'),
+  '#title' =&gt; t('${3:Label}'),
+);
+</string>
+	<key>name</key>
+	<string>FAPI Image Button</string>
+	<key>tabTrigger</key>
+	<string>fapi_image_button</string>
+	<key>uuid</key>
+	<string>80D23E6C-3CA6-4173-A117-4263A2798B8D</string>
+</dict>
+</plist>

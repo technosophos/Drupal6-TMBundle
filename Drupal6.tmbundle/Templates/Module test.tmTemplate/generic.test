@@ -1,0 +1,28 @@
+<?php
+// $Id$
+
+/**
+ * Test suite for ${TM_NEW_FILE_BASENAME}.
+ *
+ * 
+ * @file
+ */
+ 
+/**
+ * Main testing class.
+ */
+class ${TM_NEW_FILE_BASENAME}UnitTest extends DrupalWebTestCase {
+
+  public function setUp() {
+    parent::setUp('${TM_NEW_FILE_BASENAME}');
+  }
+
+  public function getInfo() {
+    return array(
+      'name' => t('Test Name'),
+      'description' => t('Test Description.'),
+      'group' => t('${TM_NEW_FILE_BASENAME}'),
+    );
+  }
+}
+

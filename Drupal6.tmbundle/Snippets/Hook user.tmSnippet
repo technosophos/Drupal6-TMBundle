@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:hook}_user(\$op, &amp;\$edit, &amp;\$account, \$category = NULL) {
+  switch (\$op) {
+    $0
+    /* These ops return values:
+    case 'categories':
+      \$items[] = array
+        'name' =&gt; 'some_name',
+        'title' =&gt; 'Some Name',
+        'weight' =&gt; 0,
+      );
+     return \$items;
+    case 'form':
+    case 'register':
+      return \$form;
+    */
+
+  }
+}</string>
+	<key>name</key>
+	<string>Hook user</string>
+	<key>tabTrigger</key>
+	<string>user_hook</string>
+	<key>uuid</key>
+	<string>864D9B5E-5BFF-4FEB-A223-3FB43B52C55F</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$form['${1:element_name}'] = array(
+  '#type' =&gt; 'value',
+  '#value' =&gt; '${2:Server only}',
+);
+</string>
+	<key>name</key>
+	<string>FAPI Value</string>
+	<key>tabTrigger</key>
+	<string>fapi_value</string>
+	<key>uuid</key>
+	<string>EF04B21E-C667-4E0A-8C84-66066BCA0C91</string>
+</dict>
+</plist>

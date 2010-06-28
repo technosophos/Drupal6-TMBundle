@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$schema['${1:table_name}'] = array(
+  // Reference: http://drupal.org/node/146843
+  'fields' =&gt; array(
+    '${2:field_id}' =&gt; array(
+      'description' =&gt; t('ID field for $1'),
+      'type' =&gt; 'serial',
+      'unsigned' =&gt; TRUE,
+      'not null' =&gt; TRUE,
+    ),
+   '${3:field_name}' =&gt; array(
+      'description' =&gt; t('$4'),
+      'type' =&gt; '${5:int}',
+      'default' =&gt; 0,
+    ),
+    $0
+  ),
+ 'primary key' =&gt; array('$2'),
+  /*
+  'unique keys' =&gt; array(
+    'key name' =&gt; array('field'),
+  ),
+  'indexes' =&gt; array(
+    'index name' =&gt; array('field'),
+  ),
+  */
+);
+</string>
+	<key>name</key>
+	<string>Schema item</string>
+	<key>tabTrigger</key>
+	<string>schema_item</string>
+	<key>uuid</key>
+	<string>40CCF2C6-6DC8-4152-A52A-7ED52F2AE03E</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?php
+// $Id$
+
+/**
+ * The main file for ${TM_NEW_FILE_BASENAME}.
+ * @file
+ */
+
+/**
+ * Implementation of hook_help().
+ */
+function ${TM_NEW_FILE_BASENAME}_help($path, $args) {
+  if ($path == 'admin/help#${TM_NEW_FILE_BASENAME}') {
+    return t('');
+  }
+}
+
+
