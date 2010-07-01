@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Implements hook_form_alter().
+ */
+function ${1:hook}_form_alter(&amp;\$form, &amp;\$form_state, \$form_id) {
+  switch (\$form_id) {
+    case '${2:FORM_ID}':
+      $0;
+      break;
+  }
+}
+</string>
+	<key>name</key>
+	<string>Hook form alter</string>
+	<key>tabTrigger</key>
+	<string>form_alter</string>
+	<key>uuid</key>
+	<string>9CB3E81B-D2A5-4C4F-9B39-A1AA3B3EDBB4</string>
+</dict>
+</plist>

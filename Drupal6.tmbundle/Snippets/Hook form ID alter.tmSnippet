@@ -4,19 +4,17 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * Implements hook_help().
+ * Implements hook_form_FORM_ID_alter().
  */
-function ${1:hook}_help(\$path, \$arg) {
-  switch($path) {
-    case 'admin/${1/hook/\u$0/}#help':
-      return t('$0');
-  }
-}</string>
+function ${1:hook}_form_${2:FORM_ID}_alter(&amp;\$form, &amp;\$form_state) {
+  $0
+}
+</string>
 	<key>name</key>
-	<string>Hook help</string>
+	<string>Hook form ID alter</string>
 	<key>tabTrigger</key>
-	<string>help_hook</string>
+	<string>form_alter_id</string>
 	<key>uuid</key>
-	<string>31F47FBF-86C6-421E-A529-1609EA451981</string>
+	<string>FAACE31D-36B7-4029-9B36-3AA0982E8BCF</string>
 </dict>
 </plist>
