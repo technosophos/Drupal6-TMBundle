@@ -2,4 +2,14 @@
 
 This is a Drupal 6 TextMate bundle. It provides support for the bulkier Drupal 6 APIs like hook_block and FAPI.
 
-To use this, simply add the Drupal6.tmbundle directory to TextMate.
+## Installing
+
+You can follow the standard TextMate installation instructions for installing this bundle.
+
+If you want to continue developing this bundle, this is the recommended procedure for doing so:
+
+* Clone the repository (feel free to fork!)
+* Make a symbolic link from `Drupal6.tmbundle` in your source to `~/Libarary/Application Support/TextMate/Bundles/Drupal6.tmbundle`
+* Restart TextMate or reload the bundles ('Bundles > Bundle Editor > Reload bundles')
+
+Please send me a pull request if you commit anything cool. I'd love to keep growing this bundle.
