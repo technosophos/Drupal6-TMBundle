@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>node_load(${1:\$nid_or_array}, ${2:\$vid}, ${3:\$reset = NULL})$0</string>
+	<key>name</key>
+	<string>node_load</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>node_load</string>
+	<key>uuid</key>
+	<string>11E75DBC-D73F-4396-959D-DCDFF9A7CC32</string>
+</dict>
+</plist>
