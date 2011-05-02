@@ -52,7 +52,7 @@ function ${1/hook/\u$0/}_load(\$node) {
  * Implementation of hook_view()
  */
 function ${1/hook/\u$0/}_view(\$node, \$teaser = FALSE, \$page = FALSE) {
-  $content =&amp; $node-&gt;content;
+  \$content =&amp; \$node-&gt;content;
 
   $0
 
@@ -62,8 +62,8 @@ function ${1/hook/\u$0/}_view(\$node, \$teaser = FALSE, \$page = FALSE) {
 /**
  * Implementation of hook_nodeapi()
  */
-function ${1/hook/\u$0/}_nodeapi(\&amp;\$node, \$op, \$a3 = NULL, \$a4 = NULL) {
-  switch($op) {
+function ${1/hook/\u$0/}_nodeapi(&amp;\$node, \$op, \$a3 = NULL, \$a4 = NULL) {
+  switch(\$op) {
     case 'alter':
       break;
     case 'delete':
@@ -103,6 +103,8 @@ function ${1/hook/\u$0/}_nodeapi(\&amp;\$node, \$op, \$a3 = NULL, \$a4 = NULL) {
 </string>
 	<key>name</key>
 	<string>Node hooks (all)</string>
+	<key>scope</key>
+	<string>source.php</string>
 	<key>tabTrigger</key>
 	<string>node_hooks</string>
 	<key>uuid</key>
