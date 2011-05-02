@@ -1,6 +1,4 @@
 <?php
-// $Id$
-
 /** @file
  * The installer file for ${TM_NEW_FILE_BASENAME}.
  *
