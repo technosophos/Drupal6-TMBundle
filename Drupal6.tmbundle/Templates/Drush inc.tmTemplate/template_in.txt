@@ -1,0 +1,45 @@
+<?php
+/**
+ * @file
+ * Drush utilities for ${TM_NEW_FILE_BASENAME}
+ *
+ */
+
+/**
+ * Implements hook_Drush_help().
+ */
+function ${TM_NEW_FILE_BASENAME}_drush_help($section) {
+  /*
+  if ($section == 'drush:YOUR_SECTION_HERE') {
+    return dt('HELP TEXT');
+  }
+  */
+}
+
+function ${TM_NEW_FILE_BASENAME}_drush_command() {
+  $items = array();
+  
+  /*
+  $items['CMD_VERB'] = array(
+    'description' => dt('Help text'),
+    'bootstrap' => DRUSH_BOOTSTRAP_DRUPAL_FULL,
+    'options' => array(
+      '--my-opt' => dt('Option help text.'),
+    ),
+    'arguments' => array(
+      'myarg' => dt('My arguments')
+    ),
+    'examples' => array(
+      'drush --my-opt myarg' => dt('Example of...'),
+    ),
+  );
+  */
+
+  return $items;
+}
+
+/*
+function drush_${TM_NEW_FILE_BASENAME}_CMD_VERB($myarg, $more_args) {
+
+}
+*/
